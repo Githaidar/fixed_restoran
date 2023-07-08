@@ -32,8 +32,8 @@ export const navData = [
 
 export const heroData = {
     pretitle: 'Nothing brings together like',
-    title: 'Bistro Cafe',
-    subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. ',
+    title: 'KulinerBogor.com',
+    subtitle: 'This restaurant is the best place to enjoy typical Bogor dishes. It feels so authentic and makes anyone remember childhood memories. ',
     btnText: 'Find out more',
 };
 
@@ -48,7 +48,7 @@ export const socialData = [
 export const aboutData = {
     pretitle: 'our story',
     title: 'who we are',
-    subtitle: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet consequatur, quasi minima molestiae ex exercitationem culpa quisquam architecto quaerat, iusto dolores labore, sapiente magni rem commodi aperiam ad dolorem neque ducimus. Placeat vel non quod quis pariatur a aperiam, aliquam adipisci voluptatum voluptatem sit cupiditate dolore natus beatae earum omnis.',
+    subtitle: 'Our restaurant was born from our love and pride for Bogor culinary specialties. With diverse culinary experience and in-depth knowledge of Bogor culinary specialties, we decided to combine our expertise and form this restaurant. In our travels, we interact with local farmers, grocers and cultural observers to ensure that the dishes we serve maintain authenticity and unrivaled quality. We are dedicated to presenting an authentic culinary experience, providing a smart touch of innovation to meet the tastes and expectations of our customers.',
     btnText: 'find out more',
     image: AboutImg,
 };
@@ -60,25 +60,25 @@ export const menuData = {
     btnText: 'view complete menu',
     menuItems: [{
             image: MenuImg1,
-            name: 'Chocolate Cake',
+            name: 'Asinan Bogor',
             price: '$7.99',
             description: 'Class aptent taciti ciosqu litora torquent per',
         },
         {
             image: MenuImg2,
-            name: 'Veggie Burger',
+            name: 'Toge Goreng',
             price: '$9.49',
             description: 'Class aptent taciti ciosqu litora torquent per',
         },
         {
             image: MenuImg3,
-            name: 'King Burger',
+            name: 'Laksa Bogor',
             price: '$8.50',
             description: 'Class aptent taciti ciosqu litora torquent per',
         },
         {
             image: MenuImg4,
-            name: 'Mexican Burger',
+            name: 'Lapis Talas',
             price: '$9.99',
             description: 'Class aptent taciti ciosqu litora torquent per',
         },
