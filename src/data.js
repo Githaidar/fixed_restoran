@@ -87,11 +87,11 @@ export const menuData = {
 
 export const teamData = {
     pretitle: 'our team',
-    title: 'meet our chef',
+    title: 'meet our creator',
     sub1: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci repudiandae enim ratione corrupti voluptatum suscipit distinctio dolor.',
     sub2: 'Sequi exercitationem quae deserunt reiciendis nesciunt perferendis atque quisquam, odit facere! Minima esse reiciendis, magnam fugiat totam maxime consequatur perspiciatis voluptas consequuntur.',
-    name: 'sara peter',
-    occupation: 'executive chef',
+    name: 'hilmiyatul asna & haidar aditya baran',
+    occupation: 'executive creator',
     signatureImg: SignatureImg,
     chefImg: ChefImg,
 };
@@ -101,7 +101,7 @@ export const testimonialData = {
     subtitle: '1500+ statisfied clients',
     modelImg: ModelWhiteImg,
     slider: [{
-            message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.',
+            message: 'Prices and places are easy to reach, the waiters are friendly and fast, you can feel the traditional atmosphere.',
             image: Avatar1,
             name: 'Rick Thompson',
             occupation: 'CEO of Delightful',
@@ -123,7 +123,7 @@ export const testimonialData = {
 
 export const reservationData = {
     title: 'booking form',
-    subtitle: 'Call (800) 123-4567 from 5AM - 11PM daily, or book online with OpenTable.Reservations required for parties of 6 or more.',
+    subtitle: 'Call (021) 256-3689 from 3AM - 11PM daily, or book online with OpenTable.Reservations required for parties of 6 or more.',
     modelImg: ModelBlackImg,
     btnText: 'make a reservation',
 };
