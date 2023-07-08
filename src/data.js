@@ -7,13 +7,13 @@ import {
     FaDiscord,
 } from 'react-icons/fa';
 // import images
-import AboutImg from '../src/assets/img/about/plate.png';
+import AboutImg from '../src/assets/img/about/Laksa-Bogor-removebg-preview copyaf.png';
 import ModelWhiteImg from '../src/assets/img/model-white.png';
 import ModelBlackImg from '../src/assets/img/model-black.png';
-import MenuImg1 from '../src/assets/img/menu/1.png';
-import MenuImg2 from '../src/assets/img/menu/2.png';
-import MenuImg3 from '../src/assets/img/menu/3.png';
-import MenuImg4 from '../src/assets/img/menu/4.png';
+import MenuImg1 from '../src/assets/img/menu/asinan-bogor.png';
+import MenuImg2 from '../src/assets/img/menu/toge-goreng.png';
+import MenuImg3 from '../src/assets/img/menu/lapis-talas.png';
+import MenuImg4 from '../src/assets/img/menu/doclang.png';
 import SignatureImg from '../src/assets/img/team/signature.png';
 import ChefImg from '../src/assets/img/team/chef.png';
 import Avatar1 from '../src/assets/img/testimonial/avatar1.png';
@@ -72,13 +72,13 @@ export const menuData = {
         },
         {
             image: MenuImg3,
-            name: 'Laksa Bogor',
+            name: 'Lapis Talas',
             price: '$8.50',
             description: 'Class aptent taciti ciosqu litora torquent per',
         },
         {
             image: MenuImg4,
-            name: 'Lapis Talas',
+            name: 'Doclang',
             price: '$9.99',
             description: 'Class aptent taciti ciosqu litora torquent per',
         },
