@@ -22,12 +22,12 @@ import Avatar3 from '../src/assets/img/testimonial/avatar3.png';
 
 export const navData = [
     { href: '/', name: 'home' },
-    { href: '/', name: 'about' },
-    { href: '/', name: 'menu' },
-    { href: '/', name: 'team' },
-    { href: '/', name: 'testimonials' },
-    { href: '/', name: 'book a table' },
-    { href: '/', name: 'contact' },
+    // { href: '/', name: 'about' },
+    { href: '/menu', name: 'menu' },
+    { href: '/ourteam', name: 'team' },
+    { href: '/booking', name: 'testimonials' },
+    // { href: '/', name: 'book a table' },
+    // { href: '/', name: 'contact' },
 ];
 
 export const heroData = {
@@ -38,11 +38,11 @@ export const heroData = {
 };
 
 export const socialData = [
-    { href: '/', icon: < FaYoutube / > },
-    { href: '/', icon: < FaFacebookF / > },
-    { href: '/', icon: < FaInstagram / > },
-    { href: '/', icon: < FaPinterestP / > },
-    { href: '/', icon: < FaDiscord / > },
+    { href: 'https://youtu.be/-_jCtsHSHqo', icon: <FaYoutube /> },
+    { href: '/', icon: <FaFacebookF /> },
+    { href: '/', icon: <FaInstagram /> },
+    { href: '/', icon: <FaPinterestP /> },
+    { href: '/', icon: < FaDiscord /> },
 ];
 
 export const aboutData = {

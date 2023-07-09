@@ -8,7 +8,8 @@ const Socials = () => {
       return (
         <a className='border border-white/20 rounded-full w-[35px] h-[35px] flex items-center justify-center text-sm hover:text-accent hover:border-accent transition-all'
         href={item.href} 
-        key={index}>
+        key={index} 
+        target='_blank' >
         {item.icon}
         </a>
       );

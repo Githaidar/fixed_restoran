@@ -24,7 +24,7 @@ const Reservation = () => {
   //clock state
   const [value, setValue] = useState('10:00')
 
-  return <section className='relative top-96 z-30 pb-20 lg:py-[100px]'>
+  return <section className='relative top-48 z-30 pb-20 lg:py-[100px]'>
     <div className="container mx-auto">
       {/*text*/}
       <motion.div 
@@ -75,7 +75,7 @@ const Reservation = () => {
             <div>Choose Time</div>
             </div>
             <TimePicker 
-            className='input' 
+            className='input bg-white' 
             clearIcon={false} 
             clockIcon={false} 
             onChange={setValue}

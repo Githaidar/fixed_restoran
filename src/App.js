@@ -1,25 +1,26 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from 'react';
 // import components
-import Hero from './components/Hero';
-import About from './components/About';
-import Menu from './components/Menu';
-import Team from './components/Team';
-import Testimonial from './components/Testimonial';
-import Reservation from './components/Reservation';
+import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Home from './views/Home';
+import OurTeam from "./views/OurTeam";
+import Booking from './views/Booking';
+import Menus from "./views/Menus";
+import Hero from "./components/Hero"
 
 const App = () => {
   return (
-    <div className='h-full bg-pattern bg-repeat max-w-[1800px] mx-auto overflow-hidden'>
-      <Hero />
-      <About />
-      <Menu />
-      <Team />
-      <Testimonial />
-      <Reservation />
-      <Footer />
-      <div className='h-[380px] md:h-[370px]'></div>
-    </div>
+      <Router>
+        <Hero/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menus />} />
+          <Route path="/ourteam" element={<OurTeam />} />
+          <Route path="/booking"  element={<Booking />} />
+        </Routes>
+        <Footer />
+      </Router>
   );
 };
 
