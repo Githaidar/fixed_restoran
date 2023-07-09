@@ -23,7 +23,10 @@ const About = () => {
       {/* {img} */}
       <motion.div variants={plateVariants} 
       className='-mb-[300px] -mr-[186px] z-10' >
-        <img src={image}/>
+        <motion.img
+    src={image}
+    style={{ transform: "scale(1.5)" }}
+  />
       </motion.div>
       </motion.div>
     </div>

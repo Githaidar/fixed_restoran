@@ -7,7 +7,7 @@ import {
     FaDiscord,
 } from 'react-icons/fa';
 // import images
-import AboutImg from '../src/assets/img/about/Laksa-Bogor-removebg-preview (1).png';
+import AboutImg from '../src/assets/img/about/3x3__2_-removebg-preview.png';
 import ModelWhiteImg from '../src/assets/img/model-white.png';
 import ModelBlackImg from '../src/assets/img/model-black.png';
 import MenuImg1 from '../src/assets/img/menu/asinan-bogor.png';
@@ -15,7 +15,7 @@ import MenuImg2 from '../src/assets/img/menu/toge-goreng.png';
 import MenuImg3 from '../src/assets/img/menu/lapis-talas.png';
 import MenuImg4 from '../src/assets/img/menu/doclang.png';
 import SignatureImg from '../src/assets/img/team/signature.png';
-import ChefImg from '../src/assets/img/team/chef.png';
+import ChefImg from '../src/assets/img/team/panapn(3.37 × 5 inci).png';
 import Avatar1 from '../src/assets/img/testimonial/avatar1.png';
 import Avatar2 from '../src/assets/img/testimonial/avatar2.png';
 import Avatar3 from '../src/assets/img/testimonial/avatar3.png';
