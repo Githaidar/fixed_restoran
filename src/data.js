@@ -38,11 +38,11 @@ export const heroData = {
 };
 
 export const socialData = [
-    { href: 'https://youtu.be/-_jCtsHSHqo', icon: <FaYoutube /> },
-    { href: '/', icon: <FaFacebookF /> },
-    { href: '/', icon: <FaInstagram /> },
-    { href: '/', icon: <FaPinterestP /> },
-    { href: '/', icon: < FaDiscord /> },
+    { href: 'https://youtu.be/IuGvIxKiN18', icon: < FaYoutube / > },
+    { href: 'https://www.facebook.com/kulinerbogorenak?mibextid=ZbWKwL', icon: < FaFacebookF / > },
+    { href: 'https://instagram.com/kuliner_bgr?igshid=MzRlODBiNWFlZA==', icon: < FaInstagram / > },
+    { href: 'https://pin.it/27eVDH3', icon: < FaPinterestP / > },
+    { href: 'https://discord.gg/fMS9rZEd', icon: < FaDiscord / > },
 ];
 
 export const aboutData = {
@@ -54,8 +54,8 @@ export const aboutData = {
 };
 
 export const menuData = {
-    title: 'delicious flavour of autumn',
-    subtitle: 'view all menu for tasty meal today',
+    title: 'delicious in all seasons',
+    subtitle: 'see all the delicious food menu today',
     modelImg: ModelWhiteImg,
     btnText: 'view complete menu',
     menuItems: [{
@@ -103,19 +103,19 @@ export const testimonialData = {
     slider: [{
             message: '"Prices and places are easy to reach, the waiters are friendly and fast, you can feel the traditional atmosphere."',
             image: Avatar1,
-            name: 'Rick Thompson',
+            name: 'Jajang',
             occupation: 'Artist',
         },
         {
             message: '"Very satisfied with the culinary experience at this restaurant. The traditional Bogor food served is truly authentic and delicious."',
             image: Avatar2,
-            name: 'John Doe',
+            name: 'Abdul',
             occupation: 'Musician',
         },
         {
             message: '"Every time I visit Bogor, this restaurant is a must-go destination for me. Nothing can beat the enjoyment of the typical Bogor dishes they serve. The food at this restaurant is a perfect blend of tradition and innovation. I was really impressed by the uniqueness of each dish."',
             image: Avatar3,
-            name: 'Henry A.',
+            name: 'Siti',
             occupation: 'Public Figure',
         },
     ],
