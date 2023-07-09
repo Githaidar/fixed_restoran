@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 //import compononent
 import Nav from '../components/Nav'
 import Socials from '../components/Socials'
-import LogoWhite from '../assets/img/header/logo-white.png'
+import LogoWhite from '../assets/img/header/KulinerBogor.com.png'
 import { motion } from 'framer-motion'
 import { staggerContainer, fadeIn } from '../variants';
+
 
 const headerVariant = {
   hidden: {

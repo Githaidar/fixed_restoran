@@ -7,7 +7,7 @@ import {
     FaDiscord,
 } from 'react-icons/fa';
 // import images
-import AboutImg from '../src/assets/img/about/Laksa-Bogor-removebg-preview copyaf.png';
+import AboutImg from '../src/assets/img/about/Laksa-Bogor-removebg-preview (1).png';
 import ModelWhiteImg from '../src/assets/img/model-white.png';
 import ModelBlackImg from '../src/assets/img/model-black.png';
 import MenuImg1 from '../src/assets/img/menu/asinan-bogor.png';
