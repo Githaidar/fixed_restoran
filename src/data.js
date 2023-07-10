@@ -48,39 +48,39 @@ export const socialData = [
 export const aboutData = {
     pretitle: 'our story',
     title: 'who we are',
-    subtitle: 'Our restaurant was born from our love and pride for Bogor culinary specialties. With diverse culinary experience and in-depth knowledge of Bogor culinary specialties, we decided to combine our expertise and form this restaurant. In our travels, we interact with local farmers, grocers and cultural observers to ensure that the dishes we serve maintain authenticity and unrivaled quality. We are dedicated to presenting an authentic culinary experience, providing a smart touch of innovation to meet the tastes and expectations of our customers.',
+    subtitle: 'Restoran kami adalah hasil dari cinta dan kebanggaan kami terhadap kuliner khas Bogor. Dengan pengetahuan yang luas tentang kuliner khas Bogor dan pengalaman kuliner yang beragam, kami memutuskan untuk membentuk restoran ini. Selama perjalanan kami, kami berkolaborasi dengan petani lokal, pedagang grosir, dan budayawan untuk memastikan bahwa hidangan yang kami sajikan mempertahankan keaslian dan kualitasnya yang tak tertandingi. Dedikasi kami adalah untuk memberikan pengalaman kuliner yang otentik, dengan sentuhan inovatif yang cerdas untuk memenuhi selera dan harapan pelanggan kami.',
     btnText: 'find out more',
     image: AboutImg,
 };
 
 export const menuData = {
-    title: 'delicious in all seasons',
-    subtitle: 'see all the delicious food menu today',
+    title: 'Menu terbaik di alam semesta',
+    subtitle: 'Lihat semua menu dibawah ini',
     modelImg: ModelWhiteImg,
     btnText: 'view complete menu',
     menuItems: [{
             image: MenuImg1,
             name: 'Asinan Bogor',
             price: 'Rp. 15.000',
-            description: 'Types of vegetables and fruits with fresh sour spices',
+            description: 'Jenis sayur dan buah dengan bumbu asam segar',
         },
         {
             image: MenuImg2,
             name: 'Toge Goreng',
             price: 'Rp. 10.000',
-            description: 'Fried bean sprouts with spices.',
+            description: 'Tauge di goreng dengan bumbu.',
         },
         {
             image: MenuImg3,
             name: 'Lapis Talas',
             price: 'Rp. 37.000',
-            description: 'Cassava is processed into layers of steamed dough',
+            description: 'Singkong diolah menjadi lapisan adonan kukus',
         },
         {
             image: MenuImg4,
             name: 'Doclang',
             price: 'Rp. 20.000',
-            description: 'Small pieces of beef, processed with special spices.',
+            description: 'Potongan kecil daging sapi, diolah dengan bumbu khusus.',
         },
     ],
 };
@@ -88,67 +88,67 @@ export const menuData = {
 export const teamData = {
     pretitle: 'our team',
     title: 'meet our creator',
-    sub1: ' We are the founders of this restaurant and we are proud to present to you the rich culinary delights of Bogor. We consider it an honor to present traditional dishes rich in taste and cultural heritage.',
-    sub2: 'By using fresh ingredients and recipes passed down from generation to generation, we try to maintain the authenticity and delicacy of typical Bogor dishes in every dish we serve. We invite you to feel the warmth and culinary delights of Bogor through every bite in our restaurant.',
+    sub1: ' Kami adalah pendiri web restoran ini dan dengan bangga mempersembahkan kepada Anda kekayaan kuliner Bogor. Kami menganggap suatu kehormatan untuk menyajikan hidangan tradisional yang kaya akan cita rasa dan warisan budaya.',
+    sub2: 'Dengan menggunakan bahan-bahan segar dan resep turun temurun, kami berusaha menjaga keaslian dan kelezatan masakan khas Bogor di setiap masakan yang kami sajikan. Kami mengundang Anda untuk merasakan kehangatan dan kelezatan kuliner Bogor melalui setiap gigitan di restoran kami.',
     name: 'haidar aditya baran & hilmiyatul asna',
-    occupation: 'executive creator',
+    occupation: 'legenda kreator',
     signatureImg: SignatureImg,
     chefImg: ChefImg,
 };
 
 export const testimonialData = {
-    title: "what client's say ",
-    subtitle: '1500+ statisfied clients',
+    title: "Apa yang orang katakan kepada kami",
+    subtitle: '29 pelanggan setia',
     modelImg: ModelWhiteImg,
     slider: [{
-            message: '"Prices and places are easy to reach, the waiters are friendly and fast, you can feel the traditional atmosphere."',
+            message: '"Harga dan tempat mudah dijangkau, pelayannya ramah dan cepat, suasana tradisional bisa dirasakan."',
             image: Avatar1,
-            name: 'Jajang',
-            occupation: 'Artist',
+            name: 'Andi',
+            occupation: 'Mahasiswa',
         },
         {
-            message: '"Very satisfied with the culinary experience at this restaurant. The traditional Bogor food served is truly authentic and delicious."',
+            message: '"Sangat puas dengan pengalaman kuliner di restoran ini. Makanan tradisional Bogor yang disajikan benar-benar otentik dan lezat."',
             image: Avatar2,
-            name: 'Abdul',
-            occupation: 'Musician',
+            name: 'Rizki',
+            occupation: 'Artis',
         },
         {
-            message: '"Every time I visit Bogor, this restaurant is a must-go destination for me. Nothing can beat the enjoyment of the typical Bogor dishes they serve. The food at this restaurant is a perfect blend of tradition and innovation. I was really impressed by the uniqueness of each dish."',
+            message: '"Setiap kali saya mengunjungi Bogor, restoran ini adalah tujuan yang harus saya kunjungi. Tidak ada yang bisa mengalahkan kenikmatan masakan khas Bogor yang mereka sajikan. Makanan di restoran ini merupakan perpaduan sempurna antara tradisi dan inovasi. Saya sangat terkesan dengan keunikan setiap hidangan."',
             image: Avatar3,
-            name: 'Siti',
-            occupation: 'Public Figure',
+            name: 'Istri Haidar',
+            occupation: 'Tokoh Masyarakat',
         },
     ],
 };
 
 export const reservationData = {
-    title: 'booking form',
-    subtitle: 'Call (021) 256-3689 from 3AM - 11PM daily, or book online with OpenTable.Reservations required for parties of 6 or more.',
+    title: 'Formulir Pemesanan',
+    subtitle: 'Hubungi (021) 256-3689 dari pukul 03.00 - 23.00 setiap hari, atau pesan online dengan OpenTable. Reservasi diperlukan untuk rombongan 6 orang atau lebih.',
     modelImg: ModelBlackImg,
-    btnText: 'make a reservation',
+    btnText: 'Buat Reservasi',
 };
 
 export const newsletterData = {
-    title: 'join our newsletter',
-    subtitle: 'Get latest news & updates in your inbox.',
-    placeholder: 'Subscribe our delicious dishes',
+    title: 'Mari bergabung dengan kami',
+    subtitle: 'Dapatkan berita & pembaruan terbaru di kotak masuk Anda.',
+    placeholder: 'Berlangganan sekarang',
     btnText: 'subscribe now',
 };
 
 export const footerData = {
     contact: {
-        title: 'contact location',
+        title: 'lokasi',
         address: 'Jalan Raya Pajajaran, Baranangsiang, Kota Bogor, Jawa Barat.',
         phone: '(021)256-3689',
     },
     hours: {
-        title: 'working hours',
+        title: 'jam kerja',
         program: [{
-                days: 'monday - friday',
+                days: 'senin - jumat',
                 hours: '09:00 AM - 10:00 PM',
             },
             {
-                days: 'saturday - sunday',
+                days: 'sabtu - minggu',
                 hours: '09:00 AM - 11:00 PM',
             },
         ],
