@@ -132,7 +132,7 @@ export const newsletterData = {
     title: 'Mari bergabung dengan kami',
     subtitle: 'Dapatkan berita & pembaruan terbaru di kotak masuk Anda.',
     placeholder: 'Berlangganan sekarang',
-    btnText: 'subscribe now',
+    btnText: 'join sekarang',
 };
 
 export const footerData = {
