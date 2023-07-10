@@ -1,10 +1,10 @@
 import React from 'react';
 //import data
-import {newsletterData} from '../data';
+import { newsletterData } from '../data';
 
 const Newsletter = () => {
   //destructure newsletter data
-  const {title, subtitle, placeholder, btnText} = newsletterData;
+  const { title, subtitle, placeholder, btnText } = newsletterData;
   return <div className='bg-none lg:bg-newsletter lg:bg-cover lg:h-[220px] lg:bg-center lg:px-24 xl:bg-auto'>
     <div className='flex flex-col lg:flex-row justify-between items-center h-full'>
       {/* {/title & subtitle/} */}
@@ -14,10 +14,14 @@ const Newsletter = () => {
       </div>
       {/* {/form/} */}
       <form className='flec flex-col lg:flex-row lg:gap-x-[10px] gap-y-4'>
-        <input 
-        className='input bg-transparent placeholder:font-light placeholder:text-white/20 text-white focus:ring-1 focus:ring-accent border border-white/20 transition-all' 
-        type='text'
-        placeholder={placeholder}/>
+        <input
+          className='input bg-transparent placeholder:font-light placeholder:text-white/20 text-white focus:ring-1 focus:ring-accent border border-white/20 transition-all'
+          type='email'
+          placeholder={placeholder}
+        />
+        <button type='submit' className='btn capitalize w-full lg:max-w-[204px]'>
+          {btnText}
+        </button>
       </form>
     </div>
   </div>;
