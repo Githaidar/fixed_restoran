@@ -43,10 +43,6 @@ const Hero = () => {
                 {subtitle}
               </motion.p>
       
-              {/* {button} */}
-              <motion.div variants={fadeIn('down', 'tween', 0.5, 1.1)}>
-                <button className='btn'>{btnText}</button>
-              </motion.div>
             </motion.div>
           </div>
         </section>

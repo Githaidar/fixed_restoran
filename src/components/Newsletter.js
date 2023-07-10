@@ -18,7 +18,6 @@ const Newsletter = () => {
         className='input bg-transparent placeholder:font-light placeholder:text-white/20 text-white focus:ring-1 focus:ring-accent border border-white/20 transition-all' 
         type='text'
         placeholder={placeholder}/>
-        <button className='btn capitalize w-full lg:max-w-[204px]'>{btnText}</button>
       </form>
     </div>
   </div>;
