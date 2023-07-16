@@ -108,7 +108,7 @@ const Header = () => {
         motion.div variants = { navVariants }
         initial = "hidden"
         animate = { nav ? 'show' : '' }
-        className = "absolute bg-black w-[310px] h-[50vh] right-0 lg:left-0 top-[120px] buttom-0 z-50 rounded-lg shadow-xl" >
+        className = "absolute bg-accent w-[310px] h-[50vh] right-0 lg:left-0 top-[120px] buttom-0 z-50 rounded-lg shadow-xl" >
         <
         Nav / >
         <
