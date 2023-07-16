@@ -59,7 +59,7 @@ const Menu = () => {
         <
         div className = 'lg:-mt-24 min-h-[590px] z-30 mb-8 md:mb-4 xl:mb-16' >
         <
-        div className = 'grid grid-cols-1 lg:grid-cols-4 min-h-[590px]' > {
+        div className = 'grid grid-cols-1 lg:grid-cols-2 min-h-[590px]' > {
             menuItems.map((item, index) => {
                 const { image, name, price, description } = item;
                 return ( <
